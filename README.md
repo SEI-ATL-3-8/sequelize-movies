@@ -18,7 +18,7 @@
   - `title`
   - `releaseDate`
   - `synopsis`
-  - `directorId`
+  - `directorId` INTEGER NOT A STRING 
 
 - a model called `userMovie`, which should consist of:
 
