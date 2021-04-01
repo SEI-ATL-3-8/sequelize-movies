@@ -1,4 +1,6 @@
-INSERT INTO directors (name) VALUES
+INSERT INTO directors
+  (name)
+VALUES
   ('Alejandro G. Iñárritu'),
   ('Damien Chazelle'),
   ('Dan Gilroy'),
@@ -18,7 +20,9 @@ INSERT INTO directors (name) VALUES
   ('Joel Coen'),
   ('Sam Mendes');
 
-INSERT INTO movies (title, synopsis, directorId) VALUES
+INSERT INTO movies
+  (title, synopsis, directorId)
+VALUES
   (
     'Birdman or (The Unexpected Virtue of Ignorance)',
     'Illustrated upon the progress of his latest Broadway play, a former popular actor''s struggle to cope with his current life as a wasted actor is shown.',
@@ -171,13 +175,17 @@ INSERT INTO movies (title, synopsis, directorId) VALUES
     6
   );
 
-  INSERT INTO users (name) VALUES
+INSERT INTO users
+  (name)
+VALUES
   ('Joel'),
   ('Dexter'),
   ('Ryan'),
   ('Pete');
 
-INSERT INTO usersMovies (userId, movieId) VALUES
+INSERT INTO usersMovies
+  (userId, movieId)
+VALUES
   (1, 18),
   (1, 30),
   (1, 1),
@@ -185,7 +193,7 @@ INSERT INTO usersMovies (userId, movieId) VALUES
   (1, 22),
   (1, 2),
   (1, 3),
-  
+
   (2, 7),
   (2, 10),
   (2, 11),
@@ -193,7 +201,7 @@ INSERT INTO usersMovies (userId, movieId) VALUES
   (2, 28),
   (2, 8),
   (2, 29),
-  
+
   (3, 18),
   (3, 2),
   (3, 21),
@@ -201,7 +209,7 @@ INSERT INTO usersMovies (userId, movieId) VALUES
   (3, 5),
   (3, 20),
   (3, 19),
-  
+
   (4, 9),
   (4, 11),
   (4, 23),

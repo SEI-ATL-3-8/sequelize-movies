@@ -56,10 +56,9 @@ Thus far we've created 1 to many relationships via associations but we can also 
 1. Select all the movies directed by Alex Garland.
 2. Find the director who directed "There Will Be Blood".
 3. Find all of Ryan's favorites.
-4. Find everyone who added "The Lobster" as a favorite movie.
-5. Find the names of all users who favorited a movie directed by Joel Coen. Note that you may get duplicates for the reasons described here: https://stackoverflow.com/questions/23786401/why-do-multiple-table-joins-produce-duplicate-rows. You can remove duplicates like this: https://www.w3schools.com/sql/sql_distinct.asp.
+4. Find everyone who added the movie that you previously added and favorited.
 
-### PART 3: Using our knowledge about associations
+### PART 3: Super Stretch!!! Using our knowledge about associations
 
 1. List the movies with the number of favorites they have.
 2. List the names of directors along with the number of favorites that exist for all of the movies they've made, ordered by number of favorites descending.
