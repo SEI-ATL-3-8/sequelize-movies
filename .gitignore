@@ -1,2 +1,7 @@
 node_modules
 config
+models/director.js
+models/movie.js
+models/user.js
+models/usermovie.js
+models.index.js
