@@ -30,6 +30,8 @@
   - `name`
 
 - Once you're done creating your models run sequelize db:migrate
+- If your migrations ran smoothly then run this command to run the seeds
+- sequelize-cli db:seed:all
 
 ### ABOUT THIS DATABASE:
 
