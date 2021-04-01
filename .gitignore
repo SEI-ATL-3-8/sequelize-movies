@@ -6,3 +6,4 @@ models/user.js
 models/usermovie.js
 models/index.js
 dbTest.js
+migrations
