@@ -2,7 +2,7 @@
 
 ### TO SET UP:
 
-- Create a database (for this exercise name it exactly this `sequelize_movies`)
+- Create a database (for this exercise name it exactly this `sequelize_movies` or else you'll get errors!)
 
 - initialize npm
 - run npm install (it will read the package.json and install both sequalize and pg for us!!)
