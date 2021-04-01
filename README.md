@@ -6,11 +6,12 @@
 
 - initialize npm
 - run npm install (it will read the package.json and install both sequalize and pg for us!!)
-- create a git ignore and add node_modules to it
+- normally we'd create a gitignore and add node_modules to it but this is already done for you
 - intialize sequelize
 - modify config/config.json
-- use psql or createdb to create the database
-- Create our models with sequelize model:generate <name, attributes, etc> (one for each table!)
+- use psql or createdb to create the database remember to name it 'sequelize_movies'
+- Create our models with `sequelize model:generate <name, attributes, etc>` (one for each table!)
+  - - make sure the the data types are exactly the same as in the erb
 - a model called `director`, which should consist of:
   - `name`
 - a model called `movie`, which should consist of:
@@ -30,8 +31,9 @@
   - `name`
 
 - Once you're done creating your models run sequelize db:migrate
-- If your migrations ran smoothly then run this command to run the seeds
-- sequelize-cli db:seed:all
+- Check your psql to make sure you have all the tables
+- If your migrations ran smoothly then run this command to run the seed files `only run this once!!!!`
+- `sequelize-cli db:seed:all`
 
 ### ABOUT THIS DATABASE:
 
