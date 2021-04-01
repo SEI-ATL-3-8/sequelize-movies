@@ -1,0 +1,23 @@
+CREATE TABLE IF NOT EXISTS directors (
+  id SERIAL PRIMARY KEY,
+  name VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS movies (
+  id SERIAL PRIMARY KEY,
+  title VARCHAR(255) NOT NULL,
+  releaseDate INTEGER,
+  synopsis TEXT,
+  directorId INTEGER
+);
+
+CREATE TABLE IF NOT EXISTS users (
+  id SERIAL PRIMARY KEY,
+  name VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS usersMovies (
+  id SERIAL PRIMARY KEY,
+  userId INTEGER,
+  movieId INTEGER
+);
