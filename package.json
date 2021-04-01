@@ -1,0 +1,23 @@
+{
+  "name": "sequelize-movies",
+  "version": "1.0.0",
+  "description": "### TO SET UP:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SEI-ATL-3-8/sequelize-movies.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SEI-ATL-3-8/sequelize-movies/issues"
+  },
+  "homepage": "https://github.com/SEI-ATL-3-8/sequelize-movies#readme",
+  "dependencies": {
+    "pg": "^8.5.1",
+    "sequelize": "^6.6.2"
+  }
+}
