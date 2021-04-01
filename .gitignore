@@ -4,4 +4,4 @@ models/director.js
 models/movie.js
 models/user.js
 models/usermovie.js
-models.index.js
+models/index.js
