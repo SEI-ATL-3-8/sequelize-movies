@@ -4,7 +4,6 @@
 
 - Create a database (maybe `sequelize-movies` would be a good name)
 
-- initialize git
 - initialize npm
 - install sequelize and pg
 - add a git ignore and add node_modules to it
@@ -31,8 +30,6 @@
   - `name`
 
 - Once you're done creating your models run sequelize db:migrate
-
-- Run `psql -d [name of your database] -f seed.sql` from within this directory
 
 ### ABOUT THIS DATABASE:
 
