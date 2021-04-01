@@ -19,7 +19,7 @@
   - `title`
   - `releaseDate`
   - `synopsis`
-  - `directorId` INTEGER NOT A STRING 
+  - `directorId` INTEGER NOT A STRING
 
 - a model called `userMovie`, which should consist of:
 
@@ -44,6 +44,7 @@ Thus far we've created 1 to many relationships via associations but we can also 
 
 ### PART 1: CRUD with sequelize
 
+1. Create a dbTest.js file to write your queries in
 1. Think of your favorite movie that isn't directed by someone on the list of directors. Add that movie to the movies table.
 1. Add the director of your new movie to the directors table.
 1. Update your new movie to have the correct director.
