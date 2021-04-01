@@ -12,7 +12,7 @@ module.exports = (sequelize, DataTypes) => {
     static associate(models) {
       // define association here
       models.movie.belongsTo(models.director)
-      models.userMovie.hasMany(models.userMovie)
+      models.movie.belongsToMany(models.user, {through: 'userMovie'})
 
     }
   };

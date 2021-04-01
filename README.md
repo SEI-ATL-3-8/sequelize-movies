@@ -2,11 +2,11 @@
 
 ### TO SET UP:
 
-- Create a database (maybe `sequelize-movies` would be a good name)
+- Create a database (for this exercise name it exactly this `sequelize_movies`)
 
 - initialize npm
-- install sequelize and pg
-- add a git ignore and add node_modules to it
+- run npm install (it will read the package.json and install both sequalize and pg for us!!)
+- create a git ignore and add node_modules to it
 - intialize sequelize
 - modify config/config.json
 - use psql or createdb to create the database
